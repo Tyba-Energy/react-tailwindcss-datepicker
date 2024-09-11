@@ -19,8 +19,7 @@
         "build": "npm run code-style && npm run clean && rollup -c rollup.config.js --bundleConfigAsCjs",
         "pub": "npm run build && npm publish",
         "dev": "next dev -p 8888",
-        "prepare": "husky",
-        "prepack": "husky"
+        "prepare": "husky"
     },
     "repository": {
         "type": "git",
